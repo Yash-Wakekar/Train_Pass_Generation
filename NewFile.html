@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://localhost:8080/hellllo/Mainpage.css">
+
+<title>Maha-ticket eportal</title>
+</head>
+<body>
+ <div class="head">
+<h1>MAHA-TICEKT E-PORTAL</h1>
+<h2>Train Pass Service </h2>
+<h2>Registration Form</h2>
+</div>
+<div class="fo">
+<form  action="indexaction.jsp"method="post">
+
+ <div class="innerfo">   
+ <br>  
+  
+    <label for="first name"><b>First Name:   </b></label>
+    <br>
+    <input type="text" name="first name" placeholder="First Name" required>
+    <br>
+    <br>
+    <label for="Last name"><b>Last Name: </b>  </label>
+    <br>
+    <input type="text" name="Last name" placeholder="Last Name" required>
+    <br>
+    <br>
+    <label for="email"><b>Email address:   </b></label>
+    <br>
+    <input type="email" name="email" placeholder="Enter mes mail id" required>
+    <br> <br>
+    <label for="Admissionno"><b>Admission No </b>: </label><br>
+    <input type="password" name="Admissionno" placeholder="Admission No" required>
+    <br> <br>
+     <p>Select Your Gender</p>
+     <div class="gender">
+    <input type="radio" name="Gender" id="male">
+    <label for="male">Male</label>
+    <br> 
+    <input type="radio" name="Gender" id="female">
+    <label for="female">Female</label>
+    <br>
+    <input type="radio" name="Gender" id="other">
+    <label for="other">Other</label>
+    <br> <br>
+    </div>
+    <p><b>Select the Course</b></p>
+    <label for="course"></label>
+    <select name="course" id="course">
+        <option value="None">None</option>
+        <option value="Computer Engineering">Computer Engineering</option>
+        <option value="Information Technology">Information Technology</option>
+        <option value="Automobile Engineering">Automobile Engineering</option>
+        <option value="Mechanical Engineering">Mechanical Engineering</option>
+        <option value="Electronic and Computer Science">Electronic and Computer Science</option>
+        <option value="Electronic and Telecommunication">Electronic and Telecommunication</option>
+        
+    </select>
+    <br>
+    <br>
+   <div class="sub">
+    <input type="Submit" id="search" value="submit" class="search">
+   </div>
+   <br><br>
+</div>
+</form>
+</div>
+</body>
+</html>
